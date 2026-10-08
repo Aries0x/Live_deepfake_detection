@@ -1,0 +1,117 @@
+{
+  "efficientnet_b0": {
+    "accuracy": 0.6975,
+    "precision": 0.7182,
+    "recall": 0.65,
+    "f1": 0.6824,
+    "roc_auc": 0.7785,
+    "brier_score": 0.2079,
+    "confusion_matrix": [
+      [
+        149,
+        51
+      ],
+      [
+        70,
+        130
+      ]
+    ],
+    "tp": 130,
+    "tn": 149,
+    "fp": 51,
+    "fn": 70,
+    "test_samples": 400
+  },
+  "vit_b16": {
+    "accuracy": 0.535,
+    "precision": 0.5603,
+    "recall": 0.325,
+    "f1": 0.4114,
+    "roc_auc": 0.5976,
+    "brier_score": 0.3479,
+    "confusion_matrix": [
+      [
+        149,
+        51
+      ],
+      [
+        135,
+        65
+      ]
+    ],
+    "tp": 65,
+    "tn": 149,
+    "fp": 51,
+    "fn": 135,
+    "test_samples": 400
+  },
+  "parallel_visual_ensemble": {
+    "accuracy": 0.66,
+    "precision": 0.7222,
+    "recall": 0.52,
+    "f1": 0.6047,
+    "roc_auc": 0.7272,
+    "brier_score": 0.229,
+    "confusion_matrix": [
+      [
+        160,
+        40
+      ],
+      [
+        96,
+        104
+      ]
+    ],
+    "tp": 104,
+    "tn": 160,
+    "fp": 40,
+    "fn": 96,
+    "test_samples": 400
+  },
+  "aasist_l": {
+    "accuracy": 1.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "roc_auc": 1.0,
+    "brier_score": 0.0,
+    "confusion_matrix": [
+      [
+        200,
+        0
+      ],
+      [
+        0,
+        200
+      ]
+    ],
+    "tp": 200,
+    "tn": 200,
+    "fp": 0,
+    "fn": 0,
+    "test_samples": 400
+  },
+  "temporal_gru": {
+    "accuracy": 0.505,
+    "precision": 0.5025,
+    "recall": 1.0,
+    "f1": 0.6689,
+    "roc_auc": 0.5258,
+    "brier_score": 0.2499,
+    "confusion_matrix": [
+      [
+        1,
+        99
+      ],
+      [
+        0,
+        100
+      ]
+    ],
+    "tp": 100,
+    "tn": 1,
+    "fp": 99,
+    "fn": 0,
+    "test_samples": 200
+  }
+}

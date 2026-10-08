@@ -87,10 +87,10 @@ scratch/*
 # Large dataset files & heavy model checkpoints (>100MB)
 data/
 archive/
-models/*.pt
-models/*.pth
-models/*.bin
-models/*.onnx
+*.pt
+*.pth
+*.bin
+*.onnx
 *.tar
 *.tar.gz
 *.zip
